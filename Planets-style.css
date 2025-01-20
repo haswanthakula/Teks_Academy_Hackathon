@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+    color: white;
+}
+*{
+    cursor: url(cursor.png), auto;
+}
+.planet-sec-left{
+    height: auto;
+    width: 100vw;
+}
+.planet-upper{
+  background-color: black;
+  color: white;
+
+
+    width: inherit;
+    height: 60vh;
+    display: flex;
+}
+.planet-lower{
+  background-color: black;
+  color: white;
+
+    width: inherit;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.planet-part{
+  background-color: black;
+  color: white;
+
+    width: 30vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planet-img{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+.planet-info{
+  background-color: black;
+  color: white;
+
+    width: 70vw;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+.planet-lower-info{
+  background-color: black;
+  color: white;
+
+    height: inherit;
+    width: inherit;
+}
+.planet-slider{
+  background-color: black;
+  color: white;
+
+    height: inherit;
+    width: 40vw;
+}
+.planet-sec-right{
+  background-color: black;
+  color: white;
+
+    height: 100vh;
+    width: 100vw;
+    border: 1px dashed black;  
+}
+  #emoji-div{
+    background-color: black;
+
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    color: yellow ;
+    display: flex;
+    align-items: center;
+  }
+  #emoji-div span{
+    display: none;
+    transition: 2s;
+  }
+  #emoji-div:hover span{
+    display: inline;
+    
+  }
+  .planet-image{
+    width: 400px;
+    height: 400px;
+  }
+
+  /* #emoji-div {
+    background-color: black;
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out; /* Add transition for background color 
+}*/
+
+#emoji-div span {
+    display: none;
+    transition: opacity 0.5s ease-in-out; /* Add transition for opacity */
+}
+
+/* #emoji-div:hover {
+    background-color: #007bff; /* Change background color on hover
+}*/
+
+#emoji-div:hover span {
+    display: inline;
+    opacity: 1; /* Set opacity to 1 on hover */
+} */
+
+
+
+
+
+  body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+#sun{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#mercury{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#venus{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#earth{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#mars{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#jupiter{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#satrun{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#uranus{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+#neptune{
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color:white
+}
+.containers{
+    height: auto;
+    width: auto;
+}

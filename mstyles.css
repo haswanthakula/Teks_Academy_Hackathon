@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    cursor: url(cursor.png), auto;
+}
+
+body{
+    padding: 30px;
+    background-image: url(starfall-gif-46.gif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#section1{
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+        
+.f{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+        
+.card{
+   
+    width:350px;
+    height: 500px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.card-inner{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    transition:transform 1.5s;
+    transform-style: preserve-3d;
+}
+        
+.card:hover .card-inner{
+    transform: rotateY(-180deg);
+}
+        
+.card-front,  .card-back{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+                            
+                            
+}
+        
+.card-back{
+    transform:rotateY(180deg);
+    text-align: justify;
+}
+    
+
+
+
+h1{
+    margin-top: 30px;
+}
+        
+.f{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+        
+
+
+
+
+#section2{
+    background-image: url();
+    width: 100vw;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#background{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+#background2{
+    background: url(bg2.avif);
+    background-size: cover;
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+#bonalu_img, #bathukamma_img, #diwali_img, #dussehra_img,#numaish_img {
+    transition: transform 0.5s ease-out;
+    cursor: pointer; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+#bonalu_img:hover, #bathukamma_img:hover, #diwali_img:hover, #dussehra_img:hover, #numaish_img:hover{
+    transform: scale(1.1);
+}
+
+#div2{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 6rem;
+    
+}
+#card_body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -120%;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s
+    
+}
+#card3{
+    height: 20rem;
+    width: 30rem;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    position: relative;
+}
+#card3:hover #card_body{
+    right: 0;
+}
+.heading{
+    font-size: 5rem;
+    background:-webkit-linear-gradient(#f1a9a9,#4951ed);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+
+
+
+
+#section3{
+    background-image: url(a.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#card-container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#card1{
+    text-align: center;
+    width:400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(1,1,1,0.5);
+    margin:20px;
+
+    transition: transform 0.5s ease-out; 
+    cursor: pointer; 
+}
+
+#card1:hover{
+    transform: scale(1.1);
+}
+
+#card1 img{
+    width: 400px;
+    height: 300px;
+}
+
+
+#description{
+    width: 900px;
+}
